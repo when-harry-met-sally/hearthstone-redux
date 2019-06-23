@@ -1,0 +1,65 @@
+.field-position {
+  border: 1px solid black;
+  height: 20em;
+  background-color: white;
+}
+
+.current-turn-side {
+  background-color: rgb(237, 252, 215);
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+ 
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(148, 43, 43);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+.filled-mana-crystal {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(55, 90, 204);
+  border-radius: 50%;
+  display: inline-block;
+}
+.empty-mana-crystal {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(173, 173, 173);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.damaged {
+  color: rgb(175, 16, 16);
+}
+.hand {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  
+}
+
+.portrait {
+  height: 6em;
+}
+
+#drag-object {
+  position: absolute;
+}
+
+.usable {
+  outline: 4px solid green;
+}
+
+
